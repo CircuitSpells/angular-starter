@@ -108,8 +108,8 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       jasmine-core:
-        specifier: ~5.4.0
-        version: 5.4.0
+        specifier: ~5.8.0
+        version: 5.8.0
       karma:
         specifier: ~6.4.0
         version: 6.4.4
@@ -124,7 +124,7 @@ importers:
         version: 5.1.0(karma@6.4.4)
       karma-jasmine-html-reporter:
         specifier: ~2.1.0
-        version: 2.1.0(jasmine-core@5.4.0)(karma-jasmine@5.1.0(karma@6.4.4))(karma@6.4.4)
+        version: 2.1.0(jasmine-core@5.8.0)(karma-jasmine@5.1.0(karma@6.4.4))(karma@6.4.4)
       lint-staged:
         specifier: ^15.5.2
         version: 15.5.2
@@ -4050,10 +4050,10 @@ packages:
         integrity: sha512-VYz/BjjmC3klLJlLwA4Kw8ytk0zDSmbbDLNs794VnWmkcCB7I9aAL/D48VNQtmITyPvea2C3jdUMfc3kAoy0PQ==,
       }
 
-  jasmine-core@5.4.0:
+  jasmine-core@5.8.0:
     resolution:
       {
-        integrity: sha512-T4fio3W++llLd7LGSGsioriDHgWyhoL6YTu4k37uwJLF7DzOzspz7mNxRoM3cQdLWtL/ebazQpIf/yZGJx/gzg==,
+        integrity: sha512-Q9dqmpUAfptwyueW3+HqBOkSuYd9I/clZSSfN97wXE/Nr2ROFNCwIBEC1F6kb3QXS9Fcz0LjFYSDQT+BiwjuhA==,
       }
 
   jiti@1.21.7:
@@ -8734,7 +8734,7 @@ snapshots:
 
   jasmine-core@4.6.1: {}
 
-  jasmine-core@5.4.0: {}
+  jasmine-core@5.8.0: {}
 
   jiti@1.21.7: {}
 
@@ -8783,9 +8783,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  karma-jasmine-html-reporter@2.1.0(jasmine-core@5.4.0)(karma-jasmine@5.1.0(karma@6.4.4))(karma@6.4.4):
+  karma-jasmine-html-reporter@2.1.0(jasmine-core@5.8.0)(karma-jasmine@5.1.0(karma@6.4.4))(karma@6.4.4):
     dependencies:
-      jasmine-core: 5.4.0
+      jasmine-core: 5.8.0
       karma: 6.4.4
       karma-jasmine: 5.1.0(karma@6.4.4)
 
