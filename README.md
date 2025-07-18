@@ -16,23 +16,6 @@ The path is `projects.[yourProjectName].schematics.@schematics/angular:component
 
 ```bash
 pnpm ng add @angular/material
-pnpm install -D tailwindcss postcss autoprefixer
-pnpm tailwindcss init
-```
-
-Open `tailwind.config.js` and add the following code to `module.exports`:
-
-```javascript
-module.exports = {
-  // ...
-  content: ["./src/**/*.{html,ts}"],
-};
-```
-
-At the beginning of `styles.scss`, add the following code:
-
-```scss
-@import "tailwindcss";
 ```
 
 ## Testing
