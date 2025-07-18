@@ -32,9 +32,7 @@ module.exports = {
 At the beginning of `styles.scss`, add the following code:
 
 ```scss
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 ```
 
 ## Testing
