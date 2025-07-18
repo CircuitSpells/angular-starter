@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-pnpm create @angular@latest -s -t -S --experimental-zoneless --ssr false --style scss [yourProjectName]
+pnpm create @angular@latest -s -t -S --experimental-zoneless --ssr false --style css [yourProjectName]
 ```
 
 Manually add the following props to the angular.json.
@@ -16,23 +16,6 @@ The path is `projects.[yourProjectName].schematics.@schematics/angular:component
 
 ```bash
 pnpm ng add @angular/material
-pnpm install -D tailwindcss postcss autoprefixer
-pnpm tailwindcss init
-```
-
-Open `tailwind.config.js` and add the following code to `module.exports`:
-
-```javascript
-module.exports = {
-  // ...
-  content: ["./src/**/*.{html,ts}"],
-};
-```
-
-At the beginning of `styles.scss`, add the following code:
-
-```scss
-@import "tailwindcss";
 ```
 
 ## Testing
@@ -110,7 +93,7 @@ Create the `.lintstagedrc` with the following content:
 
 ```text
 {
-  "*.{js,ts,json,html,scss,css,md}": [
+  "*.{js,ts,json,html,css,css,md}": [
     "prettier --write"
   ]
 }
