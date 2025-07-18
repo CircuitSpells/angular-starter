@@ -56,7 +56,7 @@ pnpm playwright install
 
 ## Code Quality
 
-For code quality, we install `angular-eslint`, `eslint-plugin-unused-imports`, `husky`, `prettier`,`lint-staged` and Sheriff.
+For code quality, we install `angular-eslint`, `eslint-plugin-unused-imports`, `husky`, `prettier`,`lint-staged` and `sheriff`.
 
 ```bash
 pnpm ng add @angular-eslint/schematics
@@ -72,7 +72,7 @@ const sheriff = require("@softarc/eslint-plugin-sheriff");
 const unusedImports = require("eslint-plugin-unused-imports");
 
 module.exports = tseslint.config(
-  // exsting setup...
+  // existing setup...
   {
     files: ["**/*.ts"],
     extends: [sheriff.configs.all],
@@ -96,7 +96,7 @@ module.exports = tseslint.config(
 );
 ```
 
-For defining barrel-less modulesyou can initialize the Sheriff configuration by running the following command:
+For defining barrel-less modules you can initialize the Sheriff configuration by running the following command:
 
 ```bash
 pnpm sheriff init
@@ -116,7 +116,6 @@ Create the `.lintstagedrc` with the following content:
     "prettier --write"
   ]
 }
-
 ```
 
 `.husky/pre-commit`, should have the following content:
