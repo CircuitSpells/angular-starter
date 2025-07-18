@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-pnpm create @angular@latest -s -t -S --experimental-zoneless --ssr false --style scss [yourProjectName]
+pnpm create @angular@latest -s -t -S --experimental-zoneless --ssr false --style css [yourProjectName]
 ```
 
 Manually add the following props to the angular.json.
@@ -93,7 +93,7 @@ Create the `.lintstagedrc` with the following content:
 
 ```text
 {
-  "*.{js,ts,json,html,scss,css,md}": [
+  "*.{js,ts,json,html,css,css,md}": [
     "prettier --write"
   ]
 }
