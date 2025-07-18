@@ -1,6 +1,7 @@
 // @ts-check
 const eslint = require("@eslint/js");
 const tseslint = require("typescript-eslint");
+const parser = require("@typescript-eslint/parser");
 const angular = require("angular-eslint");
 const ngrx = require("@ngrx/eslint-plugin/v9");
 
@@ -10,6 +11,13 @@ const unusedImports = require("eslint-plugin-unused-imports");
 module.exports = tseslint.config(
   {
     files: ["**/*.ts"],
+    languageOptions: {
+      parser: parser,
+      parserOptions: {
+        tsconfigRootDir: __dirname,
+        project: ["./tsconfig.json", "./tsconfig.spec.json"],
+      },
+    },
     extends: [
       eslint.configs.recommended,
       ...tseslint.configs.recommended,
