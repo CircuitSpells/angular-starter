@@ -35,7 +35,7 @@
     "@playwright/test": "^1.49.1",
     "@softarc/eslint-plugin-sheriff": "^0.18.0",
     "@softarc/sheriff-core": "^0.18.0",
-    "@testing-library/angular": "17.3.5",
+    "@testing-library/angular": "17.4.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/user-event": "^14.5.2",

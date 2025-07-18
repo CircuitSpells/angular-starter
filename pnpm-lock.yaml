@@ -73,8 +73,8 @@ importers:
         specifier: ^0.18.0
         version: 0.18.0(typescript@5.8.3)
       '@testing-library/angular':
-        specifier: 17.3.5
-        version: 17.3.5(c1eb70ce8025b2f74eaa2ff834afb649)
+        specifier: 17.4.0
+        version: 17.4.0(2ec4703952ec02e65369dff86460c98c)
       '@testing-library/dom':
         specifier: ^10.4.0
         version: 10.4.0
@@ -1427,9 +1427,10 @@ packages:
     peerDependencies:
       typescript: '>=4.8'
 
-  '@testing-library/angular@17.3.5':
-    resolution: {integrity: sha512-B79mN7kNDY9/+0Kc6cVGnVptQ03oHVL1at1tMu44wvr7Ksk10g11lZw7BA0c7rHAJQoXgiWrXmvtJxkPA1R2uA==}
+  '@testing-library/angular@17.4.0':
+    resolution: {integrity: sha512-xxh2tllgvpPD7lF8k2v7CGN4S5gj5zwaMA4kkM8lAZFbDj2vdW6zdVN0CxXZJy219JlztR+py2BM0KepuCKyLw==}
     peerDependencies:
+      '@angular/animations': '>= 17.0.0'
       '@angular/common': '>= 17.0.0'
       '@angular/core': '>= 17.0.0'
       '@angular/platform-browser': '>= 17.0.0'
@@ -5207,8 +5208,9 @@ snapshots:
     dependencies:
       typescript: 5.8.3
 
-  '@testing-library/angular@17.3.5(c1eb70ce8025b2f74eaa2ff834afb649)':
+  '@testing-library/angular@17.4.0(2ec4703952ec02e65369dff86460c98c)':
     dependencies:
+      '@angular/animations': 20.1.2(@angular/common@20.1.2(@angular/core@20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0))
       '@angular/common': 20.1.2(@angular/core@20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1)
       '@angular/core': 20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0)
       '@angular/platform-browser': 20.1.2(@angular/animations@20.1.2(@angular/common@20.1.2(@angular/core@20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/common@20.1.2(@angular/core@20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@20.1.2(@angular/compiler@20.1.2)(rxjs@7.8.1)(zone.js@0.15.0))
