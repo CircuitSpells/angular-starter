@@ -61,8 +61,8 @@ importers:
         specifier: ^9.31.0
         version: 9.31.0
       '@ngrx/eslint-plugin':
-        specifier: 19.0.0
-        version: 19.0.0(@typescript-eslint/utils@8.20.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.18.0(jiti@1.21.7))(typescript-eslint@8.37.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(typescript@5.8.3)
+        specifier: 19.2.1
+        version: 19.2.1(@typescript-eslint/utils@8.20.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.18.0(jiti@1.21.7))(typescript-eslint@8.37.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(typescript@5.8.3)
       '@playwright/test':
         specifier: ^1.49.1
         version: 1.49.1
@@ -1135,8 +1135,8 @@ packages:
     resolution: {integrity: sha512-zM0mVWSXE0a0h9aKACLwKmD6nHcRiKrPpCfvaKqG1CqDEyjEawId0ocXxVzPMCAm6kkWr2P025msfxXEnt8UGQ==}
     engines: {node: '>= 10'}
 
-  '@ngrx/eslint-plugin@19.0.0':
-    resolution: {integrity: sha512-opL4ADcNfIIZ6V9uaiQ6+BhTGkpYUQeAYDhz5VYY7KlUdvDlhl3JARb851t1bI4fToJ+twvixP//zcZTZdBG2Q==}
+  '@ngrx/eslint-plugin@19.2.1':
+    resolution: {integrity: sha512-6NquOZRc6y6uWdct7ygYh83KMenTCy4dz3+W3+g5wdohtvH2uHmdOnEuA4FW7PHSP0DJKwSN2GgmS6PYs4TEvg==}
     peerDependencies:
       '@typescript-eslint/utils': ^8.0.0
       eslint: ^8.57.0 || ^9.0.0
@@ -4941,11 +4941,11 @@ snapshots:
       '@napi-rs/nice-win32-x64-msvc': 1.0.1
     optional: true
 
-  '@ngrx/eslint-plugin@19.0.0(@typescript-eslint/utils@8.20.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.18.0(jiti@1.21.7))(typescript-eslint@8.37.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(typescript@5.8.3)':
+  '@ngrx/eslint-plugin@19.2.1(@typescript-eslint/utils@8.20.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.18.0(jiti@1.21.7))(typescript-eslint@8.37.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/utils': 8.20.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3)
       eslint: 9.18.0(jiti@1.21.7)
-      semver: 7.6.3
+      semver: 7.7.2
       strip-json-comments: 3.1.1
       typescript: 5.8.3
       typescript-eslint: 8.37.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.8.3)
